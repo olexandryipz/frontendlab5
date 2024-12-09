@@ -1,0 +1,13 @@
+.section {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid darkslategray;
+    background-color: #e0ffff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+}
+
+.section.active {
+    background-color: #7e7ec9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
